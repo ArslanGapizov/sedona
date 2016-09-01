@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Sedona</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.min.css">
+</head>
+<body>
+  <div class="site-wrapper">
+   <header class="main-header clearfix">
+          <nav class="main-navigation">
+               <ul class="navigation-list">
+                   <li><a class="current-page" href="#">Информация</a></li><li><a href="#">Фото и видео</a></li><li><a href="#">Карта штата</a></li><li><a href="#">Гостиницы</a></li>
+               </ul>
+               <a href="index.html" class="navigation-logo">
+                   <img src="images/headerLogo.png" alt="" width="138" height="70">
+               </a>
+           </nav>
+   </header>
+   <div class="main-content clearfix">
+           <section class="welcome-intro">
+               <img class="welcome-intro-image" src="images/WelcomeLogo.png" alt="" width="458" height="352">
+           </section>
+           <section class="promo">
+               <div class="promo-intro">
+                   <h2>Седона - небольшой городок в аризоне, заслуживающий большего!</h2>
+                   <span>Рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</span>
+               </div>
+               <div class="promo-benefit clearfix">
+                   <div class="benefit-column benefit-column-light">
+                        <h3 class="benefit-column-title">Настоящий городок</h3>
+                        <span class="benefit-column-number"> №1</span>
+                        <p class="benefit-column-text">Седона - не аттракцион для туристов, там течет своя жизнь</p>
+                   </div>
+                   <div class="benefit-image">
+                       <img src="images/Photo1.jpg" alt="" width="800" height="256">
+                   </div>
+               </div>
+               <div class="promo-features clearfix">
+                   <div class="item-feature">
+                       <div class="item-feature-image">
+                           <img src="images/featuresImage1.jpg" alt="" width="75" height="72">
+                       </div>
+                       <h3 class="item-feature-title">Жилье</h3>
+                       <p class="item-feature-text">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+                   </div>
+                   <div class="item-feature">
+                       <div class="item-feature-image">
+                           <img src="images/featuresImage2.jpg" alt="" width="74" height="70">
+                       </div>
+                       <h3 class="item-feature-title">Еда</h3>
+                       <p class="item-feature-text">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+                   </div>
+                   <div class="item-feature">
+                       <div class="item-feature-image">
+                           <img src="images/featuresImage3.jpg" alt="" width="64" height="76">
+                       </div>
+                       <h3 class="item-feature-title">Сувениры</h3>
+                       <p class="item-feature-text">Не только китайского, но и местного производства!</p>
+                   </div>
+               </div>
+               <div class="promo-benefit">
+                  <div class="benefit-image">
+                       <img src="images/Photo2.jpg" alt="" width="800" height="256">
+                   </div>
+                   <div class="benefit-column benefit-column-light">
+                        <h3 class="benefit-column-title">Там есть мост дьявола</h3>
+                        <span class="benefit-column-number">№2</span>
+                        <p class="benefit-column-text">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+                   </div>
+               </div>
+               <div class="promo-benefit-columns clearfix">
+                   <div class="benefit-column">
+                        <h3 class="benefit-column-title">Небольшая площадь</h3>
+                        <span class="benefit-column-number">№3</span>
+                        <p class="benefit-column-text">Все достопримечательности находятся очень близко</p>
+                   </div>
+                   <div class="benefit-column">
+                        <h3 class="benefit-column-title">Красивая дорога</h3>
+                        <span class="benefit-column-number">№4</span>
+                        <p class="benefit-column-text">Ехать в седону из лас-вегаса совсем не скучно!</p>
+                   </div>
+                   <div class="benefit-column">
+                        <h3 class="benefit-column-title">Мало туристов</h3>
+                        <span class="benefit-column-number">№5</span>
+                        <p class="benefit-column-text">Большенство едет в гранд каньон и толпится там</p>
+                   </div>
+               </div>
+           </section>
+           <section class="hotel-search">
+               <span class="hotel-search-title">Заинтересовались?</span>
+               <p class="hotel-search-text">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
+               <a href="" class="brown-btn huge-btn search-hotel-form-btn">Поиск гостиницы в седоне</a>
+               <form action="#" class="search-hotel-form">
+                   <div class="group-label-input clearfix">
+                       <label for="date-start">Дата заезда:</label>
+                       <input class="date-input custom-date-input" id="date-start" type="date">
+                   </div>
+                   <div class="group-label-input clearfix">
+                       <label for="date-start">Дата выезда:</label>
+                       <input class="date-input custom-date-input" id="date-end" type="date">
+                   </div>
+                   <div class="group-label-input group-label-input-short clearfix">
+                       <label for="qty-adults">Взрослые:</label>
+                       <input class="number-input custom-number-input" id="qty-adults" type="number" min="0">
+                   </div>
+                   <div class="group-label-input group-label-input-short clearfix">
+                       <label for="qty-children">Дети:</label>
+                       <input class="number-input custom-number-input" id="qty-children" type="number" min="0">
+                   </div>
+                   <input class="blue-btn big-btn" type="submit" value="Найти">
+               </form>
+           </section>
+           <section class="map" id="map">
+           </section>
+   </div>
+   <footer class="main-footer clearfix">
+       <div class="footer-hashtag">#visitsedona</div>
+       <div class="social-btns">
+           <a href="#" class="social-btn social-tw"><span class="icon-twitter"></span></a><a href="#" class="social-btn social-fb"><span class="icon-facebook"></span></a><a href="#" class="social-btn social-yt"><span class="icon-youtube"></span></a>
+       </div>
+       <div class="footer-copyright">
+           <span>Website by</span>
+           <img src="images/logoHtmlAcademy.png" alt="" width="113" height="39">
+       </div>
+   </footer>
+   </div>
+   <script src="scripts/script.js"></script>
+   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDPYwWTtSja8lTaDrK5lv0IY07E-YfSvyk&callback=initMap"
+  type="text/javascript"></script>
+</body>
+</html>
